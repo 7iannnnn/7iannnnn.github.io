@@ -1,0 +1,101 @@
+/* === RESET & BASE === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #ffffff;
+    color: #222222;
+    line-height: 1.8;
+    padding: 60px 20px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+/* === HEADER === */
+header {
+    margin-bottom: 60px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 30px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    color: #999999;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+/* === POSTS LIST === */
+h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999999;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.post-list {
+    list-style: none;
+}
+
+.post-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 14px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.post-list a {
+    color: #222222;
+    /* === BLOG POST === */
+.post-title {
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+article h3 {
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+article p {
+    margin-bottom: 20px;
+    color: #444444;
+}
+
+header h1 a {
+    color: #222222;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: #555555;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 40px;
+    color: #999999;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    color: #222222;
+}
