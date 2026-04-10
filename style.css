@@ -99,3 +99,64 @@ header h1 a:hover {
 .back-link:hover {
     color: #222222;
 }
+/* === NAVIGATION === */
+nav {
+    display: flex;
+    gap: 24px;
+    margin-top: 12px;
+}
+
+nav a {
+    color: #999999;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #222222;
+}
+
+/* === ABOUT PAGE === */
+.about p {
+    margin-bottom: 20px;
+    color: #444444;
+    max-width: 520px;
+}
+
+/* === PUBLICATIONS === */
+.publication-list {
+    list-style: none;
+}
+
+.publication-list li {
+    padding: 24px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.pub-title {
+    font-size: 16px;
+    color: #222222;
+    margin-bottom: 4px;
+}
+
+.pub-details {
+    font-size: 13px;
+    color: #999999;
+    margin-bottom: 8px;
+}
+
+.pub-abstract {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.pub-link {
+    font-size: 13px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.pub-link:hover {
+    text-decoration: underline;
+}
